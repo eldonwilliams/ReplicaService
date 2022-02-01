@@ -1,0 +1,1 @@
+return game:GetService("RunService"):IsServer() and require(script:WaitForChild("ReplicaService")) or require(script:WaitForChild("ReplicaController"))
